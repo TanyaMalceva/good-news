@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,700;0,900;1,300;1,400&display=swap');
+html {scroll-behavior: smooth;}
+body,
+textarea {
+	font-family: 'Poppins', sans-serif;}
+body, html {
+	min-width: 960px;
+}
+#wrapper {
+	width: 1200px;
+	margin:0 auto;
+	position: relative;
+	background-color: #fff;
+	padding-top: 25vh; 
+}
+.header {
+	position: fixed;
+	background-color: #fff;
+	top:0;
+	height: 25vh;
+	width: 1200px;
+}
+.header img {
+	float:left;
+}
+.header nav {
+	float: right;
+	margin-top: 57px; 
+}
+nav li{
+	display: inline;
+	font-size: 1.5rem;
+	font-weight: 800;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+nav a {
+	text-decoration: underline;
+	color: #b30000;
+}
+nav a:hover{
+	color: #fc0;
+}
+.header_container h1 {
+	text-align: center;
+	margin:0;
+	color: #b30000;
+	border: 2px solid #b30000;
+	font-size: 2rem;
+}
+.header-container-item1{
+	padding-top: 5px;
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.header-container-item1 img{
+	border: 5px double  #b30000;
+}
+.header-container-item2 {
+	width: 45%;
+	padding-top: 10px;
+}
+.header-container-item2 h3 {
+	margin: 0;
+	font-size: 1.3rem;
+}
+.header-container-item2 p {
+	font-size: 1rem;
+}
+.header_back{
+	background:url(../images/fon.jpg);
+}
+.public-container h1 {
+	text-align: center;
+	margin: 0;
+	color: #b30000;
+	border: 2px solid #b30000;
+	font-size: 2rem;
+}
+.public-flexbox {
+	display: flex;
+	justify-content: space-between;
+}
+.public-container-item1 {
+	width: 45%;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+.public-container-item1 img{
+	width: 100%;
+}
+.public-container-item2 {
+	width: 50%;
+	padding-top: 20px;
+}
+.public-container-item2 h3 {
+	margin: 0;
+}
+.public-container-item2 p{
+	margin-top: 0;
+}
+.public-container-item2 input{
+	display: flex;
+	height: 3vh;
+	margin-bottom: 10px;
+	border: 2px solid #000;
+	border-radius: 5px;
+}
+.public-container-item2 textarea{
+	display: flex;
+	margin-bottom: 10px;
+	width: 60vh;
+	height: 10vh;
+	border: 2px solid #000;
+	border-radius: 5px;
+}
+.public-container-item2 button{
+	font-size: 18px;
+	border-radius: 10px;
+	margin-left: 42vh; 
+	background-color:  #ffad99;
+	border: 2px solid #000;
+}
+.public-container-item2 button:hover {
+    background-color: #ffe066;
+    color: #000;
+}
+.politic-container {
+	padding-top: 3vh;
+}
+.politic-container h1{
+	text-align: center;
+	margin: 0;
+	color: #b30000;
+	border: 2px solid #b30000;
+	font-size: 2rem;
+}
+.politic_container_item1 h3{
+	text-align: center;
+	margin: 0;
+	padding-top: 10px;
+}
+.politic_container_item1 {
+	width: 50%;
+	float: left;
+}
+.politic_container_item2 h3{
+	text-align: center;
+	margin: 0;
+	padding-top: 10px;
+}
+.politic_container_item2 {
+	width: 50%;
+	float: right;
+}
+.politic_container_item1 a {
+	text-decoration: none;
+ 	display: inline-block;
+  	padding: 1px;
+  	padding-top: 1px;
+  	font-size: 17px;
+  	font-family: 'Poppins', sans-serif;
+  	transition: .3s ease-in-out;
+}
+.politic_container_item1 a {
+	background-image: linear-gradient(#cc3300 50%, #cc3300 50%), linear-gradient(#000 50%, #000 50%); 
+	background-position: center bottom; 
+	background-repeat: no-repeat; 
+  	background-size: 0 .2em, 100% .2em; 
+ 	color: #000; 
+  	padding-bottom: .10em; 
+  	transition: background-size .5s;
+}
+.politic_container_item1 a:hover {
+  	background-size: 100% .1em, 100% .1em; 
+  	background-position: left bottom;
+}
+.politic_container_item2 a {
+	text-decoration: none;
+ 	display: inline-block;
+  	padding: 1px;
+  	padding-top: 1px;
+  	font-size: 17px;
+  	font-family: 'Poppins', sans-serif;
+  	transition: .3s ease-in-out;
+}
+.politic_container_item2 a {
+	background-image: linear-gradient(#cc3300 50%, #cc3300 50%), linear-gradient(#000 50%, #000 50%); 
+	background-position: center bottom; 
+	background-repeat: no-repeat; 
+  	background-size: 0 .2em, 100% .2em; 
+ 	color: #000; 
+  	padding-bottom: .10em; 
+  	transition: background-size .5s;
+}
+.politic_container_item2 a:hover {
+  	background-size: 100% .1em, 100% .1em; 
+  	background-position: left bottom;
+}
+.sport_container h1 {
+	text-align: center;
+	margin-top: 50vh;
+	color: #b30000;
+	border: 2px solid #b30000;
+	font-size: 2rem;
+}
+.sport_container table {
+	font-family: 'Poppins', sans-serif;
+  	font-size: 20px;
+  	width: 150vh;
+  	text-align: center;
+  	border-collapse: collapse;
+ 	background: #b30000;
+ 	margin: auto;
+}
+.sport_container th {
+  	color: #ffcc00;
+  	border-bottom: 3px solid #fff;
+  	padding: 15px 17px;
+}
+ .sport_container td {
+  	color: #e2e8e9;
+  	height: 7vh;
+  	background: #cc0000;
+  	border-bottom: 1px solid #fff;
+}
+.sport_container tr:last-child td {
+  	border-bottom: none;
+}
+.sport_container td:last-child {
+  	border-right: none;
+}
+.sport_container tr:hover td {
+  	text-decoration: underline;
+}
+.footer-container {
+	background-color: #fff;
+}
+.footer-container {
+	margin-top: 12px;
+	display: flex;
+	justify-content: center;
+}
+.footer-container img {
+	margin-right: 3vh;
+	margin-bottom: -28px;
+}
